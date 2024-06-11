@@ -3,6 +3,19 @@ from data import question_data
 from quiz_brain import QuizBrain
 
 
+def display_game_title():
+    """
+    Prints the logo for the game to the terminal.
+    """
+    logo = [
+        "**********************************",
+        "*       Welcome to the           *",
+        "*       Star Wars Quiz!          *",
+        "**********************************"
+    ]
+    for line in logo:
+        print(line)
+        
 def new_player():
     """
     Allows the player to enter a username for the game to begin.
@@ -56,6 +69,9 @@ for question in question_data:
     new_question = Question(question_text, question_answer)
     question_bank.append(new_question)
 
+
+# Display the game title
+display_game_title()
 
 # Allow user to enter a username
 username = new_player()
