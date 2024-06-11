@@ -11,6 +11,6 @@ for question in question_data:
     new_question = Question(question_text, question_answer)
     question_bank.append(new_question)
 
-# Create a quiz brain object 
+# Quiz brain object: 
 quiz = QuizBrain(question_bank)
 quiz.next_question()
