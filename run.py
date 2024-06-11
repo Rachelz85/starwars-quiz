@@ -17,3 +17,7 @@ quiz = QuizBrain(question_bank)
 # If quiz still has questions remaining:
 while quiz.still_has_questions():
     quiz.next_question()
+
+# User's final score message:
+print("The quiz is complete. May the Force will be with you, always")
+print(f"Your final score is: {quiz.score}/{quiz.question_number} Well done, young Padawan.")
