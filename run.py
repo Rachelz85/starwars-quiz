@@ -13,4 +13,7 @@ for question in question_data:
 
 # Quiz brain object: 
 quiz = QuizBrain(question_bank)
-quiz.next_question()
+
+# If quiz still has questions remaining:
+while quiz.still_has_questions():
+    quiz.next_question()
