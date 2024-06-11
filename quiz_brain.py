@@ -14,8 +14,8 @@ class QuizBrain:
     """
 
     def __init__(self, q_list):
-        self.question_number = 0
-        # Will add score atribute here 
+        self.question_number = 0 
+        self.score = 0 # Score atribute that initializes the user's score to zero:
         self.question_list = q_list
 
     # Still had questions method, 
@@ -31,7 +31,9 @@ class QuizBrain:
     # method to check if the answer matches the correct current answer 
     def check_answer(self, user_answer, correct_answer):
         if user_answer.lower() == correct_answer.lower():
+            self.score += 1 # Increment the score if the answer is correct:
             print("Correct you are, young Padawan. The Force is strong with you!")
         else:
             print("Incorrect, young Padawan. Much to learn, you still have")
-        print(f"The correct answer was: {correct_answer}.")
+        print(f"The correct answer was: {correct_answer}.") # Print the correct answer and the user's current score
+        print(f"Your current score is: {self.score}/{self.question_number}.\n")
