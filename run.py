@@ -35,7 +35,7 @@ def new_player():
         except ValueError as e:
             print(f"{e}")
         else:
-            print(f"\nWelcome to the Star Wars Quiz!, {user}! \n")
+            print(f"\nWelcome to the Star Wars Quiz, {user}! \n")
             return user
 
 def game_instructions():

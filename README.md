@@ -10,12 +10,12 @@ The Star Wars Quiz Game is a fun and interactive command-line game designed to t
 
 ## Table of Contents
 - [How to Play](#how-to-play)
-- [Game Flow](#logic-flow-chart)
+- [Game Flow](#game-flow)
 - [Features](#features)
-- [Technologies](#technologies-used)
+- [Technologies](#technologies)
 - [Testing](#testing)
 - [Deployment](#deployment)
-- [Credits](#credits)
+- [Credits](#credits-and-resources)
 
 ## How to Play
 Once the game starts, the user is asked if they want to read the game instructions or proceed directly to play. After deciding, the user is prompted to enter a username. The game will then present a series of True/False questions about the Star Wars universe. The user should try to answer all questions correctly to achieve the highest score. The game will provide feedback after each question and display the final score at the end.
@@ -25,8 +25,8 @@ The design and flow of the game were carefully planned to ensure smooth gameplay
 
 ## Features
 The current features of the game include:
-- **Game Rules**: Instructions on how to play the game.
 - **Username Input**: Allows for a personalized experience and tracks multiple players' scores.
+- **Game Rules**: Instructions on how to play the game.
 - **Question Bank**: A series of True/False questions about the Star Wars universe.
 - **Instant Feedback**: Provides feedback after each question, indicating whether the answer was correct or incorrect.
 - **Final Score Display**: Shows the user's final score at the end of the game.
@@ -34,7 +34,7 @@ The current features of the game include:
 ## Technologies
 The following technologies were used in the development of this project:
 - **GitHub**: Source control and project repository.
-- **Codeanywhere**: Cloud development space for creating and testing the game.
+- **Gitpod**: Cloud development space for creating and testing the game.
 - **Python**: The programming language used to build the game.
 - **Heroku**: Deployment and hosting of the game.
 
@@ -43,8 +43,8 @@ Comprehensive testing was conducted to ensure the game works correctly. Here are
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 |---------|------------------|-------------------|--------|-----------|
-| View Game Instructions | Display instructions or proceed to the next step based on user input | Tested 'Y' and 'N' inputs | Worked as expected | Pass |
 | Enter Valid Username | Valid name starts the game, invalid name prompts an error | Input various names (valid and invalid) | Worked as expected | Pass |
+| View Game Instructions | Display instructions or proceed to the next step based on user input | Tested 'Y' and 'N' inputs | Worked as expected | Pass |
 | Personalized Welcome Message | Displays a welcome message with the username | Run the game with the usernames | Worked as expected | Pass |
 | Answer Questions | Verifies and shows if the answer is correct | Input 'True' or 'False' for questions | Worked as expected | Pass |
 | Final Score Display | Shows the final score at the end of the game | Complete the quiz | Worked as expected | Pass |
