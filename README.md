@@ -3,8 +3,9 @@
 
 The Star Wars Quiz Game is a fun and interactive command-line game designed to test your knowledge about the Star Wars universe. Built using Python, the game challenges players with a series of True/False questions and provides instant feedback on their answers.
 
-To play the live game [click here](https://starwars-quiz-01acf5a1c4b0.herokuapp.com/)
+![Game Screenshot](docs/game.png)
 
+### To play the live game [click here](https://starwars-quiz-01acf5a1c4b0.herokuapp.com/)
 
 
 ## Table of Contents
