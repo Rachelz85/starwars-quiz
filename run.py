@@ -23,15 +23,15 @@ def new_player():
     while True:
         try:
             print()
-            user = input("Please enter a valid name: \n")
+            user = input("Please enter a user name: \n")
             if not user.strip():
                 raise ValueError("Please enter a valid name")
             if " " in user:
-                raise ValueError("Name cannot contain spaces.")
+                raise ValueError("User name cannot contain spaces.")
             if not user.isalnum():
-                raise ValueError("Name can only contain letters and numbers.")
+                raise ValueError("User name can only contain letters and numbers.")
             if len(user) > 10:
-                raise ValueError("Name must not exceed 10 characters.")
+                raise ValueError("User name must not exceed 15 characters.")
         except ValueError as e:
             print(f"{e}")
         else:
