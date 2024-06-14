@@ -15,7 +15,7 @@ The Star Wars Quiz Game is a fun and interactive command-line game designed to t
 - [Technologies](#technologies)
 - [Testing](#testing)
 - [Deployment](#deployment)
-- [Credits](#credits-and-resources)
+- [Credits and Resources](#credits-and-resources)
 
 ## How to Play
 Once the game starts, the user is asked if they want to read the game instructions or proceed directly to play. After deciding, the user is prompted to enter a username. The game will then present a series of True/False questions about the Star Wars universe. The user should try to answer all questions correctly to achieve the highest score. The game will provide feedback after each question and display the final score at the end.
