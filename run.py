@@ -30,8 +30,8 @@ def new_player():
                 raise ValueError("User name cannot contain spaces.")
             if not user.isalnum():
                 raise ValueError("User name can only contain letters and numbers.")
-            if len(user) > 10:
-                raise ValueError("User name must not exceed 15 characters.")
+            if len(user) > 15:
+                raise ValueError("User name must not exceed 10 characters.")
         except ValueError as e:
             print(f"{e}")
         else:
